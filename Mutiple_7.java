@@ -1,4 +1,7 @@
-
+/*=========================================
+These program prints the multiple of
+7 from 1-150 and 5 number per line
+===========================================*/
 public class Mutiple_7{
      public static void main(String[] args){
          
@@ -12,12 +15,12 @@ public class Mutiple_7{
            System.out.print(i+",");
            if(k%5==0){  
                System.out.print("\n");
-           }
+           }//if
  
-          }
-    } 
+          }//if
+    } //for
  System.out.print("\n");
-System.out.println("sum"+sum);
+ System.out.println("sum"+sum);
          
-     }
-}
+     } //main
+} //class 
